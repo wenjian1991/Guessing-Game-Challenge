@@ -6,21 +6,11 @@ print("Welcome to number guessing game!")
 print("Choose a number between 1 and 100")
 print("If your choice is 10 numbers away from my number, I'll tell you 'FAR'.")
 print("If your choice is within 10 of my number, I'll tell you you 'CLOSE'.")
-print("If your choice is farther than your most recent guess, I'll say you 'TOO FAR'.")
+print("If your choice is farther than your most recent guess, I'll say you 'FURTHER'.")
 print("If your choice is closer than your most recent guess, I'll say you'CLOSER'.")
 print("LET'S PLAY!")
 
 guesses = [0]
-
-while True:
-    
-    guess = int(input("I'm thinking of a number between 1 and 100.\n  What is your guess? "))
-    
-    if guess < 1 or guess > 100:
-        print('OUT OF BOUNDS! Please try again: ')
-        continue
-        
-    break
    
 while True:
 
